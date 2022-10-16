@@ -1,6 +1,6 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
-local Window = OrionLib:MakeWindow({Name = "Stick Battles | R2O ", HidePremium = true, SaveConfig = false,IntroEnabled = false, ConfigFolder = "CloudHub"})
+local Window = OrionLib:MakeWindow({Name = "Stick Battles | R2O ", HidePremium = true, SaveConfig = false,IntroEnabled = false, ConfigFolder = "R2O"})
 
 local Tab = Window:MakeTab({
 	Name = "Main",
