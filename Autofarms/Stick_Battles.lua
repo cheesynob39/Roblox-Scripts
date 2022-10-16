@@ -35,7 +35,7 @@ for i,v in pairs(game.Players:GetPlayers()) do
     [3] = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart
 }
 
-game:GetService("Players").LocalPlayer.Character.Default.HitBox.Remotes.HitEvent:FireServer(unpack(args))
+game:GetService("Players").LocalPlayer.Character[_G.Stick].HitBox.Remotes.HitEvent:FireServer(unpack(args))
 
 
 
